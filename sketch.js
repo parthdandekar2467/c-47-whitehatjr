@@ -132,7 +132,7 @@ function draw() {
         {
           fill("YELLOW");
           textSize(20);
-          text("Captain! we are ready, proceed to the cords [y:-120] || Instruction's will be given", camera.position.x-680, camera.position.y-250)
+          text("Captain! we are ready, proceed to the cords [y = -120] || Instruction's will be given", camera.position.x-680, camera.position.y-250)
         }
         if(satellite.y<300 && satellite.y>-100)
         {
